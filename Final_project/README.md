@@ -99,24 +99,6 @@
 
 Модели обучаются с использованием подбора гиперпараметров `GridSearchCV`, а также выполняется отбор признаков с использованием `SelectKBest`.
 
-### Структура проекта
-
-project/
-├── data/
-│   └── most_used_beauty_cosmetics_products_extended.csv
-├── modules/
-│   ├── data_loader.py       
-│   ├── data_analysis.py                                  
-│   ├── eda.py 
-│   ├── preprocessing.py
-│   ├── feature_engineering.py 
-│   ├── feature_selection.py
-│   ├── modeling.py
-│   ├── visualization.py
-│   └── anomaly_detection.py    
-├── main.ipynb
-├── requirements.txt
-└── README.md
 
 ## Результаты
 
